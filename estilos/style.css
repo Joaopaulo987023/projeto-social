@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;    
+}
+main{
+    position: relative;
+    height: 100vh;
+    background: url('../imagens/fundo-madeira.jpg') no-repeat
+    top center;
+    background-size: cover; /*Corta a imagem porem preenche toda a tela*/
+
+    background-attachment: fixed; /*Deixa fixado para não hever rolagem*/
+}
+
+.celular{
+    
+    width: 311px;
+    height:627px;
+    position: absolute; /*posicionamento tem que ser absolute*/
+    top: 50%; /*usando essa configuração para centralizar*/
+    left: 50%;
+    transform: translate(-50%, -50%); /*é preciso transformar*/
+    background: url('../imagens/frame-iphone.png')no-repeat top center;
+}
+#tela{
+   position: relative;
+   top: 80px;
+   left: 22px;
+   width: 269px;
+   height: 471px;
+}
+
